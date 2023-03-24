@@ -1,12 +1,15 @@
 <?php
 /*
-    Replace YOUR_DISCOGS_API_TOKEN with your own Discogs API token.
+    Replace YOUR_DISCOGS_API_TOKEN with your own Discogs API (personal) token.
 
     Save the functions.php file.
 
-    To use the shortcode, simply add the [discogs release_id="123456"] shortcode to any post or page, replacing 123456 with the release ID of the release you want to retrieve the tracklist for.
+    To use the shortcode, simply add the [discogs release_id="123456"] shortcode to any post or page, 
+    replacing 123456 with the release ID of the release you want to retrieve the tracklist for.
 
-    The shortcode will retrieve the tracklist from Discogs using the provided release ID and display it as an unordered list. You can modify the HTML output in the discogs_shortcode() function to suit your needs.
+    The shortcode will retrieve the tracklist from Discogs using the provided release ID and 
+    display it as an unordered list. You can modify the HTML output in the discogs_shortcode() function 
+    to suit your needs.
 */
 
 
