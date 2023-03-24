@@ -1,4 +1,7 @@
 <?php
+
+// Used ChatGPT to generate this script using the prompt "write a PHP script that will pull the tracklist from a release on discogs via their API"
+
 // Discogs API endpoint
 $discogs_url = 'https://api.discogs.com/releases/{RELEASE_ID}';
 
