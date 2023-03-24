@@ -53,6 +53,7 @@ function discogs_shortcode($atts) {
 
     // Get the tracklist array from the release data
     $tracklist = $release['tracklist'];
+    $notes = $release['notes'];
 
     // Loop through the tracklist and output the track titles
     $output = '<ul>';
@@ -60,6 +61,7 @@ function discogs_shortcode($atts) {
         $output .= '<li>' . $track['title'] . '</li>';
     }
     $output .= '</ul>';
+    $output .= '<p>' . $notes . '</p>';
 
     // Return the output
     return $output;
